@@ -755,6 +755,36 @@ footer .install .copyright{
     border-radius: 0;
 }
 
+#form-details{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+    padding: 80px;
+    border: 1px solid #e1e1e1;
+}
+#form-details .people div{
+    padding-bottom: 25px;
+    display: flex;
+    align-items: flex-start;
+}
+#form-details .people div img{
+    object-fit: cover;
+    width:65px;
+    height:65px;
+    margin-right: 15px;
+}
+#form-details .people div p{
+    margin: 0;
+    font-size: 13px;
+    line-height: 25px;
+}
+#form-details .people div p span {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+}
 
 
 /* cart page design */
@@ -843,6 +873,14 @@ footer .install .copyright{
     }
     #newsletter .form{
         width: 70%;
+    }
+
+    /* contact page */
+    #form-details{
+        padding:25px;
+    }
+    #form-details form{
+        width: 50%;
     }
 }
 
@@ -952,6 +990,29 @@ footer .install .copyright{
     }
 
     /* contact page media queries */
+    #contact-details{
+        flex-direction: column;
+    }
+    #contact-details .details{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    #contact-details .map{
+        width: 100%;
+    }
+    #form-details {
+        flex-wrap: wrap;
+        margin: 10px;
+        padding: 30px 10px;
+    }
+    #form-details form{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    #form-details .people{
+        padding-left: 20px;
+        margin-top: 30px;
+    }
 
 }
 
