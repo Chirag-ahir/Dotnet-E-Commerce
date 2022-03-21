@@ -1014,5 +1014,9 @@ footer .install .copyright{
         margin-top: 30px;
     }
 
+    footer .install .row img {
+        margin: 10px 0 10px 0;
+    }
+
 }
 
