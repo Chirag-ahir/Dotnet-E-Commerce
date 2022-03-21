@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,8 +10,8 @@
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </head>
-<body>
 
+<body>
     <!-- navbar design -->
     <section id="header">
         <a href="#"><img src="./img/logo.png" class="logo"></a>
@@ -21,12 +22,18 @@
                 <li><a href="blog.html">Blog</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
-                <li><a  class="active" href="cart.html"><ion-icon name="bag-outline" id="lg-bag" class="cart"></ion-icon></a></li>
-                <a href="#" id="close"><ion-icon name="close-circle-outline"></ion-icon></a>
+                <li><a class="active" href="cart.html">
+                        <ion-icon name="bag-outline" id="lg-bag" class="cart"></ion-icon>
+                    </a></li>
+                <a href="#" id="close">
+                    <ion-icon name="close-circle-outline"></ion-icon>
+                </a>
             </ul>
         </div>
         <div id="mobile">
-            <a href="cart.html"><ion-icon name="bag-outline" class="cart"></ion-icon></a>
+            <a href="cart.html">
+                <ion-icon name="bag-outline" class="cart"></ion-icon>
+            </a>
             <ion-icon id="bar" name="list-outline"></ion-icon>
         </div>
     </section>
@@ -50,7 +57,9 @@
             </thead>
             <tbody>
                 <tr>
-                    <td><ion-icon name="close-circle-outline"></ion-icon></td>
+                    <td>
+                        <ion-icon name="close-circle-outline"></ion-icon>
+                    </td>
                     <td><img src="./img/products/f1.jpg" alt=""></td>
                     <td>Cartoon Astronaut T-Shirt</td>
                     <td>$118.19</td>
@@ -58,7 +67,9 @@
                     <td>$118.19</td>
                 </tr>
                 <tr>
-                    <td><ion-icon name="close-circle-outline"></ion-icon></td>
+                    <td>
+                        <ion-icon name="close-circle-outline"></ion-icon>
+                    </td>
                     <td><img src="./img/products/f2.jpg" alt=""></td>
                     <td>Cartoon Astronaut T-Shirt</td>
                     <td>$118.19</td>
@@ -66,7 +77,9 @@
                     <td>$118.19</td>
                 </tr>
                 <tr>
-                    <td><ion-icon name="close-circle-outline"></ion-icon></td>
+                    <td>
+                        <ion-icon name="close-circle-outline"></ion-icon>
+                    </td>
                     <td><img src="./img/products/f3.jpg" alt=""></td>
                     <td>Cartoon Astronaut T-Shirt</td>
                     <td>$118.19</td>
@@ -77,7 +90,33 @@
         </table>
     </section>
 
-
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Apply Coupon</h3>
+            <div>
+                <input type="text" placeholder="Enter Your Coupon">
+                <button class="normal">Apply</button>
+            </div>
+        </div>
+        <div id="subtotal">
+            <h3>Cart Totals</h3>
+            <table>
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td>$ 335</td>
+                <tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                <tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>$ 335</strong></td>
+                <tr>
+            </table>
+            <button class="normal">Proceed to checkout</button>
+        </div>
+    </section>
 
     <!-- newsletter-box -->
     <section id="newsletter" class="section-p1 ">
@@ -145,7 +184,8 @@
         </div>
 
     </footer>
-    
+
     <script type="text/javascript" src="script.js"></script>
 </body>
+
 </html>
